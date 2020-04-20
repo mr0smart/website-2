@@ -1,0 +1,612 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1.6px;
+	line-height: 1.6;	
+
+	
+}
+li, a, button{
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-style: 20px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+header{
+	background-color: #24252A;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0px 10%;
+}
+.logo{
+	margin-right: auto;
+	height: 120px;
+	width: 120px;
+	margin-top: -20px;
+	margin-bottom: -20px; 
+	position: relative;
+	right: 85vh;
+}
+.nav_link{
+	list-style: none;
+
+}
+.nav_link li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.nav_link li a{
+	transition: all 0.3s ease 0s;
+}
+.nav_link li a:hover{
+	color: #29f48f;
+}
+button{
+	color: #000;
+	margin-left: 20px;
+	padding: 9px 25px;
+	background-color: #29f48f;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+
+}
+button:hover{
+	background-color: white;
+	color: #000;
+}
+/*---------------Section-1-------------------*/
+.block_1{
+	padding: 10vmin;
+}
+.video{
+	height: 50%;
+	width: 30%;
+	float: left;
+	padding-left:px;
+}
+.videobg{
+	height: 700px;
+	width: 600px;
+	position: relative;
+	bottom: 100px;
+	left: 10%;
+}
+.text{
+	
+	padding: 5vmin;
+	width: 30%;
+	left: 55%;
+	height: 350px;
+	top: 34px;
+	position: relative;
+	background: white;
+    border-radius: 3px;
+    text-align: left;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.text h1{
+	position: absolute;
+	top: 70px;
+}
+.text p{
+	position: absolute;
+	top: 150px;
+	padding-right: 10vmin;
+	letter-spacing: 0.5px;
+	line-height: 1.6;
+}
+/*-------------end of section-1----------------*/
+/*---------------Section-2-------------------*/
+.block_2{
+	position: relative;
+	padding: 10vmin 0vmin;
+}
+.left{
+	position: relative;
+	width: 44px;
+	float: left;
+	right: 600px;
+	border-right: 230px solid rgba(0,0,0,1);
+    border-top: 45vh solid transparent;
+}
+.right{
+	
+	left: 50%;
+	position: relative;
+	height: 45vh;
+	width: 50%;
+	background-color: rgba(0,0,0,1);
+}
+.right h1{
+	color: #fff;
+	position: absolute;
+	top: 5vh;
+}
+.right p{
+	color: #fff;
+	position: absolute;
+	top: 15vh;
+}
+.img{
+	position: relative;
+	width: 600px;
+	float: left;
+	right: 90vh;
+	bottom: 17.5px;
+}
+.right h1{
+	color: #fff;
+}
+.right p{
+	color: #fff;
+	position: absolute;
+}
+/*-------------end of section-2----------------*/
+/*---------------Section-3-------------------*/
+.block_3{
+	background-color:#000;
+	height: 50vh;
+	padding: 15vmin 20vmin;
+}
+.cc{
+	position: relative;
+	background-color: #fff;
+	height: 50vh;
+	border-radius: 2px;
+	width: 40%;
+}
+.cc h1{
+	color: #000;
+	position: relative;
+	top: 30px;
+	font-size: 32px;
+}
+.cc p{
+	top: 100px;
+	color: #000;
+	position: absolute;
+	padding: 0px 20px;
+	font-size: 18px;
+	line-height: 1.6;
+	letter-spacing: 0.5px;
+}
+.cloud{
+	position: relative;
+	width: 50%;
+	height: 50vh;
+	left: 50%;
+	bottom: 50vh;
+}
+/*---------------end of Section-3-------------------*/
+
+/*---------------Section-4-------------------*/
+.block_4{
+	padding: 12vmin;
+	height: 112vh;
+}
+.gallary{
+	height: 12vh;
+	position: relative;
+}
+.gallary h1{
+	position: absolute;
+	top: -55px;
+	left: 45%;
+	font-size: 60px;
+	letter-spacing: 5px;
+}
+.img1,.img4,.img6{
+	height: 350px;
+	width: 400px;
+	padding: 20px;
+}
+.img2,.img3,.img5{
+	height: 300px;
+	width: 400px;
+	padding: 20px;
+}
+/*---------------end of Section-4-------------------*/
+
+/*---------------footer-------------------*/
+footer{
+	padding: 10vmin 18vmin;
+	height: 35vh;
+	background-color:#24252A;
+}
+.foot1{
+	padding: 0px;
+	margin: 0px;
+	height: 35vh;
+	width: 30%;
+	float: left;
+}
+
+.foot1 h1,.foot2 h1{
+	position: relative;
+	color: #fff;
+}
+.foot1 p-1{
+	position: relative;
+	color: #fff;
+	top: 20px;
+}
+.foot1 p-2{
+	position: relative;
+	color:#29f48f ;
+	top: 60px;
+	float: left;
+}
+.foot2{
+	height: 35vh;
+	width: 30%;
+	float: right;
+    position: relative;
+	right: 5%;
+}
+.foot_nav{
+	position: relative;
+	top: 3vh;
+	left: 2vh;
+	font-size: 18px;	
+}
+.foot3{
+	height: 35vh;
+	width: 30%;
+	float: right;
+}
+.foot3 h1{
+	position: relative;
+	color: #fff;
+}
+.foot3 p{
+	position: relative;
+	color: #29f48f;
+	top: 3vh;	
+	letter-spacing: 1.6px;
+}
+.form{
+	position: relative;	
+	top:10vh;
+	width: 100px;
+}
+.input{
+    color: #495057;
+    background-color: #343a40!important;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: 10px;
+   	width: 100px;
+   	position: relative;		
+
+}
+/*---------------statistics.html------------*/
+/*---------------aistat1-------------------*/
+.aistat1{
+	padding: 5vmin 10vmin;
+	background-color:  #ffe6e6;
+}
+.aistat1 ul{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.aistat1 ul li{
+	color: #000;
+	padding: 16px 24px;
+	border-bottom: 1px solid #d3dce6;
+		
+}
+/*---------------aistat2-------------------*/
+.aistat2{
+	padding: 5vmin;
+	background-color:#ffe6e6;
+	height: 100vh;
+}
+.aiimg2{
+	position: relative;
+	width: 50%;
+}
+.aistat2 img{
+	position: relative;
+	width: 600px;
+	height:600px;
+	top: 20px;
+}
+.info{
+	position: relative;
+	width: 50%;
+	left: 50%;
+	bottom: 500px;
+	background-color:  #001f33;
+	padding: 10px;
+}
+.aistat2 ul li{
+	padding: 16px 24px;
+	color: #fff;
+		
+}
+/*---------------cstat1-------------------*/
+.cstat1 {
+	padding: 5vmin 10vmin;
+	background-color: #e6f5ff;
+}
+.csstat1 ul{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.cstat1 ul li{
+	padding: 16px 24px;
+	border-bottom: 1px solid #d3dce6;
+	color: #000;
+}
+.cimg{
+	padding: 30px;
+	position: relative;
+	top: 30px;
+	height: 75vh;
+}
+.c{
+	height: 500px;
+	width: 600px;
+}
+.aws{
+	height: 500px;
+	width: 700px;
+}
+/*---------------end of statistics.html------------*/
+
+/*---------------example.html------------*/
+.e1{
+	padding: 5vmin;
+}
+.e1 h1{
+	border-bottom: 1px solid #d3dce6;	
+}
+/*---siri---*/
+.siri{
+	position: relative;
+	padding: 20px;
+	margin-bottom: 85px;
+}
+.siri h2{
+	position: relative;
+	padding: 20px;
+	font-size: 30px;
+}
+.siri_info{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 50vh;
+	top: 20px;
+}
+.siri_info p{
+	position: absolute;
+	top: 10vh;
+	width: 80%;
+	padding: 20px;
+	box-shadow: -20px -20px 50px 0px rgba(0, 25, 255, 0.2);
+	border-radius: 10px;
+}
+.siri_p{
+	position: relative;
+	left: 50%;
+	width: 50%;
+	height: 50vh;
+	top: 20px;
+}
+.sirip{
+	position: absolute;
+	height: 50vh;
+	right: 0%;
+}
+/*---alexa---*/
+.alexa{
+	position: relative;
+	padding: 20px;
+	margin-bottom: 85px;
+}
+.alexa h2{
+	position: relative;
+	padding: 20px;
+	font-size: 30px;
+}
+.alexa_info{
+	position: relative;
+	float: right;
+	width: 50%;
+	height: 50vh;
+	top: 20px;
+}
+.alexa_info p{
+	position: absolute;
+	top: 10vh;
+	width: 80%;
+	padding: 20px;
+	box-shadow: 20px -20px 50px 0px rgba(0, 119, 255, 0.2);
+	border-radius: 10px;
+}
+.alexa_p{
+	position: relative;
+	width: 50%;
+	height: 50vh;
+	top: 20px;
+}
+.alexap{
+	position: absolute;
+	height: 50vh;
+}
+/*---tesla---*/
+.tesla{
+	position: relative;
+	padding: 20px;
+	margin-bottom: 85px;
+}
+.tesla h2{
+	position: relative;
+	padding: 20px;
+	font-size: 30px;
+}
+.tesla_info{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 50vh;
+	top: 20px;
+}
+.tesla_info p{
+	position: absolute;
+	top: 10vh;
+	width: 80%;
+	padding: 20px;
+	box-shadow: -20px -20px 50px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+.tesla_p{
+	position: relative;
+	left: 50%;
+	width: 50%;
+	height: 50vh;
+	top: 20px;
+}
+.teslap{
+	position: absolute;
+	height: 50vh;
+	right: 4%;
+}
+/*---amazon---*/
+.amazon{
+	position: relative;
+	padding: 20px;
+	margin-bottom: 85px;
+}
+.amazon h2{
+	position: relative;
+	padding: 20px;
+	font-size: 30px;
+}
+.amazon_info{
+	position: relative;
+	float: right;
+	width: 50%;
+	height: 50vh;
+	top: 20px;
+}
+.amazon_info p{
+	position: absolute;
+	top: 10vh;
+	width: 80%;
+	padding: 20px;
+	box-shadow: 20px -20px 50px 0px rgba(255, 141, 0, 0.2);
+	border-radius: 10px;
+}
+.amazon_p{
+	position: relative;
+	width: 50%;
+	height: 50vh;
+	top: 20px;
+}
+.amazonp{
+	position: absolute;
+	height: 50vh;
+}
+/*---netflix---*/
+.netflix{
+	position: relative;
+	padding: 20px;
+	margin-bottom: 85px;
+}
+.netflix h2{
+	position: relative;
+	padding: 20px;
+	font-size: 30px;
+}
+.netflix_info{
+	position: relative;
+	float: left;
+	width: 50%;
+	height: 50vh;
+	top: 20px;
+}
+.netflix_info p{
+	position: absolute;
+	top: 10vh;
+	width: 80%;
+	padding: 20px;
+	box-shadow: -20px -20px 50px 0px rgba(255, 0, 0,0.2);
+	border-radius: 10px;
+}
+.netflix_p{
+	position: relative;
+	left: 50%;
+	width: 50%;
+	height: 50vh;
+	top: 20px;
+}
+.netflixp{
+	position: absolute;
+	height: 50vh;
+	right: 0%;
+}
+/*---------------end of example.html------------*/
+
+/*---------------about.html------------*/
+.about{
+	position: relative;
+	padding: 10vmin 20vmin;
+	
+}
+.a1{
+	position: relative;
+	height: 40vh;
+	background-color: #000;
+	padding: 0vmin 10vmin;
+}
+.a2{
+	position: relative;
+	height: 40vh;
+	background-color: #000;
+	padding: 0vmin 10vmin;
+}
+.a11{
+	position: absolute;
+	width: 50%;
+	
+}
+.a12 {
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	
+}
+.a21{
+	position: absolute;
+	width: 50%;
+}
+.a22{
+	position: absolute;
+	left: 50%;
+	width: 50%;
+}
+.a11 h1, .a12 h1,.a21 h1,.a22 h1{
+	position: absolute;
+	color: #fff;
+	left: 25vh;
+	top: 5vh;
+}
+.a11 p ,.a12 p, .a21 p,.a22 p{
+	position: relative;
+	color: #fff;
+	width: 50%;
+	padding: 10vmin;
+	left: 5vmin;
+	top: 5vmin;
+}
